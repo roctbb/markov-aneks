@@ -20,5 +20,5 @@ def index():
     text = '<p>' + '</p><p>'.join(L) + '</p>'
     return render_template('index.html', text=text)
 
-app.run(port='9095', host='0.0.0.0')
+app.run(port='9095')
 
